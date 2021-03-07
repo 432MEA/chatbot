@@ -1,0 +1,55 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hi", "how are you", "is anyone there", "hello", "good day", "whats up", "hi there", "oh hi", "hello there", "greetings", "hey", "good to see you again"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, let's chat!", "Hello there!"]
+        },
+        {"tag": "excellent",
+         "patterns": ["wow", "awsome", "you are intelligent", "you are really intelligent", "you are smart", "you are really smart", "you are awsome", "you are really awsome"],
+         "responses": ["Thanks!", "Thank you!"]
+        },
+        {"tag": "morning_greeting",
+         "patterns": ["good morning", "morning"],
+         "responses": ["Good morning to you, too!", "And good morning to you too.", "Good morning!"]
+        },
+        {"tag": "afternoon_greeting",
+         "patterns": ["good afternoon"],
+         "responses": ["Good afternoon!", "Good afternoon to you, too!", "And good afternoon to you too."]
+        },
+        {"tag": "evening_greeting",
+         "patterns": ["good evening"],
+         "responses": ["Good evening!", "Good evening to you, too!", "And good evening to you too."]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "see you later", "goodbye", "i am Leaving", "have a Good day", "bye", "bye bye", "nice chatting with you", "till next time", "untill next time", "good night"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Bye! see you soon!", "See you later!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["thanks", "thank you", "thats helpful thanks", "that was helpful thanks", "thats helpful", "that was helpful", "awsome thanks", "thanks for helping me", "thanks for helping", "thank you for helping", "thank you for helping me", "wow thanks"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure.", "Im glad that I can help!", "Sure thing.", "No problem."]
+        },
+        {"tag": "noanswer",
+         "patterns": ["", " "],
+         "responses": ["Sorry, I can't understand you.", "Please give me more info.", "Not sure I can understand."]
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age"],
+         "responses": ["I am as old as the eastern wind, and as young as a newborn caterpillar.", "They say that age is nothing but a number. But technically, it's also a word."]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name", "name", "my name is"],
+         "responses": ["You can call me Plato (plei-tow).", "I'm Plato (plei-tow)", "My name is Plato (plei-tow)."]
+        },
+        {"tag": "unsatisfied",
+         "patterns": ["you are horibble", "you're horibble", "you are bad", "you're bad", "you are so bad", "you're so bad", "you are so dumb", "you're so dumb", "you are dumb", "you're dumb", "you are so stupid", "you're so stupid", "you are stupid", "you're stupid", "you suck", "you are an idiot", "you're an idiot", "you are such an idot", "you're such an idiot"],
+         "responses": ["That's not nice.", "I won't respond to that.", "Sorry, I am just doing my job.", "Am I really that bad?"]
+        },
+        {"tag": "How_have_you_been",
+         "patterns": ["how have you been", "hows your day", "How are you", "how have you been doing"],
+         "responses": ["I'm fine, thanks.", "I feel good. Thanks for asking", "Not too shabby. Thanks for asking."]
+        },
+        {"tag": "options",
+         "patterns": ["what can you do", "what do you do"],
+         "responses": ["I can chat with you and you can ask me some quetions"]
+        }
+   ]
+}
